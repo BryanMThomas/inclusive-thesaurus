@@ -30,7 +30,7 @@ export const Result = (props) => {
     <Styles>
       <div>
         <p>Term: {props.result.actual}</p>
-        {alternatives ? <p>Alternatives: {alternatives}</p>:<p>Alternatives: No alternatices to suggest</p>}
+        {alternatives ? <p>Alternatives: {alternatives}</p>:<p>Alternatives: No alternatives to suggest</p>}
         {reason ? <p>Reason: {reason}</p> : null}
         {/* <p>{JSON.stringify(props.result)}</p> */} 
       </div>
